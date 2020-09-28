@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" th:href="@{img/favicon.ico.png}" />
+    <title>HelloSpringBootWebApp</title>
+</head>
+<body>
+    <h1>HelloSpringBootWebApp</h1>
+
+    <img th:src="@{img/welcome.png}" />
+    <p>
+        <strong>Message :</strong> <span th:text="${message}"/> <br/>
+        <strong>Date :</strong> <span th:text="${date}"/> <br/>
+    </p>
+</body>
+</html>
